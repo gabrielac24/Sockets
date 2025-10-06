@@ -2,6 +2,7 @@
 node_modules/
 cliente/node_modules/
 servidor/node_modules/
+servidor/firebase-key.json
 
 # Archivos del sistema
 .DS_Store
