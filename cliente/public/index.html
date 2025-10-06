@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inicio - Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="inicio-container">
+    <div class="login-card">
+      <h1 class="logo">Chat</h1>
+      <p class="subtitulo">Conéctate para charlar</p>
+      <input type="text" id="nombreUsuario" placeholder="Nombre de usuario">
+      <button id="btnEntrar" class="btn-primario">Entrar</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('btnEntrar').addEventListener('click', () => {
+      const nombre = document.getElementById('nombreUsuario').value.trim();
+      if (nombre) {
+        localStorage.setItem('usuario', nombre);
+        window.location.href = 'chat.html';
+      } else {
+        alert('Por favor, ingresa un nombre.');
+      }
+    });
+  </script>
+</body>
+</html>

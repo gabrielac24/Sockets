@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat en vivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="header">
+      <h2 id="tituloChat" class="titulo-chat"></h2>
+      <button id="btnSalir" class="btn-salir">Salir</button>
+    </div>
+
+    <div id="mensajes" class="mensajes"></div>
+
+    <div class="input-container">
+      <span id="etiquetaUsuario" class="etiqueta-usuario"></span>
+      <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
+      <button id="btnEnviar" class="btn-enviar">➤</button>
+    </div>
+  </div>
+
+  <script type="module" src="chat.js"></script>
+</body>
+</html>
