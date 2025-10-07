@@ -178,3 +178,22 @@ body {
   background-color: #007acc;
 }
 
+.mensaje {
+  background: #f0f0f0;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 10px;
+  max-width: 60%;
+}
+
+.mensaje.propio {
+  background: #cce5ff;
+  margin-left: auto;
+  text-align: right;
+}
+
+.hora {
+  font-size: 0.7em;
+  color: #555;
+  margin-left: 8px;
+}

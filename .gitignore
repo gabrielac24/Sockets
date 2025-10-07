@@ -3,6 +3,8 @@ node_modules/
 cliente/node_modules/
 servidor/node_modules/
 servidor/firebase-key.json
+sockets/package-lock.json
+sockets/package.json
 
 # Archivos del sistema
 .DS_Store
